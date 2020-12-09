@@ -1,0 +1,21 @@
+<div id="map"></div>
+
+
+<script>
+	function initMap ()  {
+		var location = {lat: 11.879104, lng: 66.303628};
+        var map = new google.maps.Map(document.getElementById("map"),{   
+        zoom: 4,
+        center: location
+    });
+        var marker = new google.maps.Marker({
+        	position: location,
+        	map:map
+        });
+
+                                             })
+	}
+</script>
+<script async defer src ="http maps.googleapis.com/maps/api/js?key=AIzaSyDTlu-n9Pi1rVCbNfgIqx5unWpxML2aBNk&callback=initMap"></script>
+
+
